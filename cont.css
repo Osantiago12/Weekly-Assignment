@@ -1,6 +1,8 @@
 .logo {
     position: relative;
-    left: 37%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Shifts the image back by half its own width to perfectly center it */
     margin-top: 100px;
     width: 600px;
 }
