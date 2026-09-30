@@ -1,18 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     position: relative;
     top: 0;
     left: 50%;
-    transform: translateX(-50%); /* Shifts the image back by half its own width to perfectly center it */
+    transform: translateX(-50%);
+    /* Shifts the image back by half its own width to perfectly center it */
     margin-top: 100px;
-    width: 600px;
+    width: 700px;
 }
 
 .links {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 35px;
     gap: 100px;
     margin-top: 125px;
 }
