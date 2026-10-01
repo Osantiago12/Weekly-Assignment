@@ -34,8 +34,22 @@ a {
     text-decoration: none;
 }
 
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: fit-content;
+    margin: 50px auto 0; /* centers the whatever in question*/
+    padding: 15px 40px;
+}
 
-
+h1 {
+    color: white;
+    font-family: "Poller One";
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 .bar{
     margin-top: 100px;
@@ -58,4 +72,31 @@ p{
     margin-top: 65px;
     margin-left: 400px;
     font-size: 15px;
+}
+
+.mustache{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.mustache img{
+    border: 2px solid;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#variant{
+    text-align: center;
+    color: red;
+    margin-left: 55px;
+}
+
+#variant1{
+    color: rgb(29, 107, 207);
+    text-transform: uppercase;
 }

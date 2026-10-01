@@ -33,3 +33,81 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    width: fit-content;
+    margin: 50px auto 0;
+    /* centers the whatever in question*/
+    padding: 15px 40px;
+}
+
+h1 {
+    color: white;
+    font-family: "Poller One";
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.textboxes {
+    display: grid;
+    justify-content: center;
+    margin: 50px;
+    gap: 20px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.textboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.textboxes input,
+.textboxes textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.textboxes textarea {
+    resize: vertical; /* Allows users to scale height, but keeps width locked */
+}
+
+.bar {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    height: 150px;
+}
+
+.social {
+    position: relative;
+    left: 32%;
+    transform: translateX(-50%);
+    margin-top: 45px;
+    margin-right: 15px;
+    width: 45px;
+}
+
+p {
+    color: white;
+    float: left;
+    margin-top: 65px;
+    margin-left: 400px;
+    font-size: 15px;
+}
