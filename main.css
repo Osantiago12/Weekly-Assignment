@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Shifts the image back by half its own width to perfectly center it */
+    margin-top: 100px;
+    width: 350px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 15px;
+    gap: 50px;
+    margin-top: 55px;
+}
+
+.home:hover,
+.gallery:hover,
+.contact:hover {
+    color: rgb(40, 180, 170);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* The middle section of the page*/
+.beacon {
+    display: block;
+    width: 100%;
+}
+
+.middle-section {
+    position: relative;
+    margin-top: 100px;
+}
+
+.text {
+    position: absolute;
+    top: 55%;
+    right: 30%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.top {
+    background-color: white;
+    font-weight: bold;
+    font-family: "Poller One";
+    text-transform: uppercase;
+}
+
+.read {
+    background-color: rgb(37, 170, 170);
+    color: whitesmoke;
+    font-size: 20px;
+    width: 150px;
+}
+
+.higher,
+.mid,
+.lower {
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
+
+.top,
+.higher,
+.mid,
+.lower,
+.read {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border: 5px;
+    gap: 25px;
+}
+
+ul li img{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    border: 2px solid;
+    filter: grayscale(100%);
+    transition: filter 0.8s ease, opacity 0.8s ease;
+    opacity: 0.7;
+}
+
+ul li img:hover{
+    opacity: 1;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    font-family: "Poller One";
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.bar{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    height: 150px;
+}
+.social{
+    position: relative;
+    left: 32%;
+    transform: translateX(-50%);
+    margin-top: 45px;
+    margin-right: 15px;
+    width: 45px;
+}
+p{
+    color: white;
+    float: left;
+    margin-top: 65px;
+    margin-left: 400px;
+    font-size: 15px;
+}

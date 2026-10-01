@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Shifts the image back by half its own width to perfectly center it */
+    margin-top: 100px;
+    width: 350px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 15px;
+    gap: 50px;
+    margin-top: 55px;
+}
+
+.home:hover,
+.gallery:hover,
+.contact:hover {
+    color: rgb(40, 180, 170);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* The middle section of the page*/
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: fit-content;
+    margin: 50px auto 0; /* centers the whatever in question*/
+    padding: 15px 40px;
+}
+
+h1 {
+    color: white;
+    font-family: "Poller One";
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.gal{
+    display: grid;
+    margin: 50px auto 0;
+    grid-template-columns: repeat(3, 1fr);   /* Creates a 3 column layout where each column takes up equal space */
+    width: 50%
+}
+
+.gal img{
+    border: 2px solid;
+    filter: grayscale(100%);
+    transition: filter 0.8s ease, opacity 0.8s ease;
+    opacity: 0.7;
+}
+.gal img:hover{
+    opacity: 1;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.bar{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    height: 150px;
+}
+.social{
+    position: relative;
+    left: 32%;
+    transform: translateX(-50%);
+    margin-top: 45px;
+    margin-right: 15px;
+    width: 45px;
+}
+p{
+    color: white;
+    float: left;
+    margin-top: 65px;
+    margin-left: 400px;
+    font-size: 15px;
+}
